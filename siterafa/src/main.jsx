@@ -6,12 +6,14 @@ import QuemSomos from './componetes/QuemSomos.jsx'
 import Projetos from './componetes/Projetos.jsx'
 import Servicos from './componetes/Servicos.jsx'
 import Footer from './componetes/Footer.jsx'
+import Contato from './componetes/Contato.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
     <QuemSomos />
     <Projetos />
     <Servicos />
+    <Contato />
     <Footer />
   </StrictMode>,
 )
