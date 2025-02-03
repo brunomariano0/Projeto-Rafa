@@ -59,7 +59,7 @@ const Servicos = () => {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white" id="servicos">
       <div className="max-w-7xl mx-auto px-4">
         {/* Cabeçalho da seção */}
         <div className="text-center mb-16">

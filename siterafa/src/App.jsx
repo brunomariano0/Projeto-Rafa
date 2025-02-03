@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import { Link } from 'react-scroll';
 import './App.css'
 
 
@@ -16,11 +17,53 @@ function App() {
 
         <nav className="hidden lg:block">
           <ul className="flex space-x-8">
-            <li><a href="#home" className="hover:text-martini-gold transition-colors">Home</a></li>
-            <li><a href="#sobre" className="hover:text-martini-gold transition-colors">Sobre</a></li>
-            <li><a href="#servicos" className="hover:text-martini-gold transition-colors">Serviços</a></li>
-            <li><a href="#portfolio" className="hover:text-martini-gold transition-colors">Portfólio</a></li> 
-            <li><a href="#contato" className="hover:text-martini-gold transition-colors">Contato</a></li>
+            <li>
+            <Link 
+            to="home" 
+            smooth={true} 
+            duration={500} 
+            className="hover:text-martini-gold transition-colors cursor-pointer">Home</Link></li>
+            
+            <li>
+          <Link 
+            to="sobre" 
+            smooth={true} 
+            duration={500} 
+            className="hover:text-martini-gold transition-colors cursor-pointer"
+          >
+            Sobre
+          </Link>
+        </li>
+        <li>
+          <Link 
+            to="servicos" 
+            smooth={true} 
+            duration={500} 
+            className="hover:text-martini-gold transition-colors cursor-pointer"
+          >
+            Serviços
+          </Link>
+        </li>
+        <li>
+          <Link 
+            to="projetos" 
+            smooth={true} 
+            duration={500} 
+            className="hover:text-martini-gold transition-colors cursor-pointer"
+          >
+            Projetos
+          </Link>
+        </li>
+        <li>
+          <Link 
+            to="contato" 
+            smooth={true} 
+            duration={500} 
+            className="hover:text-martini-gold transition-colors cursor-pointer"
+          >
+            Contato
+          </Link>
+        </li>
            
           </ul>
         </nav>
@@ -30,7 +73,7 @@ function App() {
         </button>
       </header>
 
-      <main className="relative min-h-screen">
+      <main className="relative min-h-screen" id='home'>
         {/* Hero Section */}
         <div className="relative h-screen">
           {/* Background Image */}

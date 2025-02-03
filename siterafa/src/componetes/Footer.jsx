@@ -114,7 +114,7 @@ const Footer = () => {
   
           {/* Copyright */}
           <div className="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
-            <p>© {new Date().getFullYear()} Tetra Empreteira. Todos os direitos reservados. | Desenvolvido<a href="https://brunomarianodev.com.br" target="_blank" rel="noopener noreferrer" className="hover:text-martini-gold transition-colors"> GB Codeworks
+            <p>© {new Date().getFullYear()} Tetra Empreteira. Todos os direitos reservados. | Desenvolvido<a href="https://brunomarianodev.com.br" target="_blank" rel="noopener noreferrer" className="hover:text-martini-gold transition-colors"> BM Agência Digital
                 </a></p>
           </div>
         </div>

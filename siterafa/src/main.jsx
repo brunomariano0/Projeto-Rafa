@@ -10,7 +10,7 @@ import Contato from './componetes/Contato.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <QuemSomos />
+    <QuemSomos/>
     <Projetos />
     <Servicos />
     <Contato />

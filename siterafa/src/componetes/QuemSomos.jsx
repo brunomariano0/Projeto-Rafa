@@ -9,7 +9,7 @@ const QuemSomos = () => {
   ];
 
   return (
-    <section className="py-20 px-4 max-w-7xl mx-auto">
+    <section className="py-20 px-4 max-w-7xl mx-auto" id="sobre">
       <div className="text-center mb-16">
         <h2 className="text-gray-600 uppercase tracking-wider mb-6">Quem Somos</h2>
         <h3 className="text-[2.5rem] font-bold text-[#0B2543] leading-tight mb-8">
